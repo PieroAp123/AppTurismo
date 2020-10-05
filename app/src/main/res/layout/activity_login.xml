@@ -11,10 +11,10 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="420dp"
-        android:layout_height="300dp"
+        android:layout_width="201dp"
+        android:layout_height="185dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/paisaje"/>
+        android:src="@drawable/logotu2"/>
 
 
 
