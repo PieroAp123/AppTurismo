@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPersonName"
+        android:hint="Titulo"
+        android:textColorHint="@color/colorBlue"
+        android:backgroundTint="@color/colorBlue" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:textColorHint="@color/colorBlue"
+        android:backgroundTint="@color/colorBlue"
+        android:layout_below="@+id/edtTitle"/>
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPersonName"
+        android:hint="Apellido"
+        android:textColorHint="@color/colorBlue"
+        android:backgroundTint="@color/colorBlue"
+        android:layout_below="@+id/edtName"/>
+
+    <EditText
+        android:id="@+id/edtComment"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="textPersonName"
+        android:hint="Comentario"
+        android:textColorHint="@color/colorBlue"
+        android:backgroundTint="@color/colorBlue"
+        android:layout_below="@+id/edtLastName"/>
+
+
+    <EditText
+        android:id="@+id/edtCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:inputType="number"
+        android:hint="Calificacion 1 - 5"
+        android:textColorHint="@color/colorBlue"
+        android:backgroundTint="@color/colorBlue"
+        android:layout_below="@+id/edtComment"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        app:backgroundTint="@color/colorBlue"
+        android:layout_marginEnd="40dp"
+        android:textSize="18sp"
+        android:text="Agregar Comentario"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/edtCalificacion"/>
+
+
+</RelativeLayout>

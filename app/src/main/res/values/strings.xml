@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppTurismo</string>
+
+    <string name="edtEmail">Correo</string>
+    <string name="edtCode">Código</string>
+    <string name="edtPass">Contraseña</string>
+    <string name="edtRepeatPass">Confirme su contraseña</string>
+    <string name="btnSignIn">INGRESAR</string>
+    <string name="submit">agregar</string>
+    <string name="bienvenidos">Bienvenidos</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="textBack">Regresar</string>
+
+    <string name="textRegister">Regístrate</string>
+    <string name="textComentario">Agregar Comentario</string>
+
+
+    <string name="textNewsTitle">NTT DATA y everis a la cabeza de IoT</string>
+    <string name="textNewsDescription">El analista a nivel mundial en el ámbito de la innovación, tecnología y nuevos modelos de negocio, Everest Group ha publicado su informe sobre el Internet de las cosas llamado “IoT services PEAK Matrix Assessment and Market Trends 2017: Have You Taken the Plunge in IoT Yet?”.</string>
+</resources>
